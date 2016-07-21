@@ -5,6 +5,6 @@ function generate() {
 }
 console.log(generate());
 
-$('a').click(function(){
+$('button').click(function(){
   $('#result h1').html(niceThings[generate()]);
 })
